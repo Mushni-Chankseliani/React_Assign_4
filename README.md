@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-Note!!! I clone this project sturcture from previous assignment.
+# Note!!! I clone this project sturcture from previous assignment.
 
-This project was deployed on Netlify [https://inspiring-darwin-2e7e07.netlify.app](https://inspiring-darwin-2e7e07.netlify.app)
+This project was deployed on Netlify [https://blissful-hermann-a6834b.netlify.app/](https://blissful-hermann-a6834b.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
