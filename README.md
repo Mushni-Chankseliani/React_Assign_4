@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Note!!! I clone this project sturcture from previous assignment.
+# Note!!! I cloned this project sturcture from previous assignment.
 
 This project was deployed on Netlify [https://blissful-hermann-a6834b.netlify.app/](https://blissful-hermann-a6834b.netlify.app/)
 
