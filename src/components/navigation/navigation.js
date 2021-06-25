@@ -40,6 +40,24 @@ function Navigation() {
               Custom Robots
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              className="nav-link"
+              to={routes.REQRES_USERS}
+              exact
+              activeClassName={css['active-class']}>
+              Reqres Users
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              className="nav-link"
+              to={routes.REQRES_RESOURCES}
+              exact
+              activeClassName={css['active-class']}>
+              Reqres Resources
+            </NavLink>
+          </li>
           {authorized && (
             <li className="nav-item">
               <NavLink

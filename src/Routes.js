@@ -10,6 +10,8 @@ const Profile = React.lazy(() => import('./pages/profile'));
 const AuthPage = React.lazy(() => import('./pages/auth'));
 const CustomRobots = React.lazy(() => import('./pages/custom-robots-page'));
 const FakerRobots = React.lazy(() => import('./pages/faker-robots'));
+const ReqresUsers = React.lazy(() => import('./pages/reqres-users'));
+const ReqresResources = React.lazy(() => import('./pages/reqres-resources'));
 
 function Routes() {
   return (
@@ -26,6 +28,12 @@ function Routes() {
         </Route>
         <Route path={routes.FAKER_ROBOTS}>
           <FakerRobots />
+        </Route>
+        <Route path={routes.REQRES_USERS}>
+          <ReqresUsers />
+        </Route>
+        <Route path={routes.REQRES_RESOURCES}>
+          <ReqresResources />
         </Route>
         <Route path={routes.HOME_PATH}>
           <HomePage />

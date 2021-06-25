@@ -6,6 +6,7 @@ import { setAuthUserAction } from '../../../redux/actions';
 import { login } from '../../../services';
 import { AUTH_TOKEN } from '../../../utils/constants';
 import { PROFILE_PATH } from '../../../utils/routePaths';
+import { TEST_IDS } from '../../../utils/testids';
 
 function SignInForm() {
   const {
@@ -28,7 +29,10 @@ function SignInForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="mb-3">
-        <label htmlFor="email" className="form-label">
+        <label
+          htmlFor="email"
+          className="form-label"
+          data-testid={TEST_IDS.credentials.email}>
           Email address
         </label>
         <input
@@ -49,7 +53,10 @@ function SignInForm() {
         )}
       </div>
       <div className="mb-3">
-        <label htmlFor="password" className="form-label">
+        <label
+          htmlFor="password"
+          className="form-label"
+          data-testid={TEST_IDS.credentials.password}>
           Password
         </label>
         <input
